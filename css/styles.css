@@ -24,3 +24,121 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+
+header {
+  padding: 1.5 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  display: block;
+}
+
+a:link {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .5em .75em;
+}
+
+a:visited {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: purple;
+  border: 2px solid purple;
+}
+
+a:focus {
+  background-color: white;
+  color: purple;
+  border: 2px solid purple; 
+}
+
+.hero {
+  width: 100%;
+  padding: 10em 0;
+  background-image: url("../images/greatest-90s-fashion-trends.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.solution {
+  width: 75%;
+  padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.25);
+}
+
+.trends {
+  background-color: purple;
+}
+
+figure {
+  width: 22%;
+  display: inline-block;
+}
+
+figcaption {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  padding: 2em 0;
+}
+
+.icon > img {
+  width: 260px;
+  float: left;
+  margin-right: 2em;
+}
+
+.janiston {
+  float: none;
+}
+
+.featured-articles {
+  display: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer > p {
+  text-align: center;
+  padding: 10px 0;
+}
